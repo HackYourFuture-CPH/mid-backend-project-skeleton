@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt';
-import db from '../db/index.js';
+import db from '../configs/database.js';
 
 export const signup = async (req, res) => {
   try {
